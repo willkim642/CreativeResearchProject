@@ -1,4 +1,5 @@
 var placeHolderText = "This is a text box. Actual dialogue will be here soon!";
+let img;
 
 function preload() {
     img = loadImage('smile.png');
