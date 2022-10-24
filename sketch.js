@@ -1,26 +1,25 @@
 //player variables
-x = 50;
-y = 400;
+x = -150;
+y = 350;
 
 function setup() {
-    createCanvas(700, 500);
+  createCanvas(700, 500);
+  frameRate(60);
+  noStroke();
 }
 
 function draw() {
-    background(255);
-    text('p5.js sketch here', width / 2, height / 2);
-    textAlign(CENTER);
-    playerActions();
-    push();
-    rect(x, y, 50);
-    pop();
+  background(0);
+  playerActions();
+  push();
+  rect(x, y, 100);
+  pop();
 }
 
 function playerActions() {
-    if (keyIsDown(LEFT_ARROW)) {
-        x -= 2.5;
-    }
-    if (keyIsDown(RIGHT_ARROW)) {
-        x += 2.5;
-    }
+  x += 2;
+  
+  if (x >= 800) {
+    x = -150;
+  }
 }
