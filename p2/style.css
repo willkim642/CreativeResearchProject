@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+p {
+    /*display: inline-block;*/
+    text-align: center;
+    color: white;
+    border-style: outset;
+    border-width: 0.5em;
+}
+
+.sketch {
+    display: inline-block;
+    position:absolute;
+    left: 25%;
+}
