@@ -59,7 +59,7 @@ function draw() {
 
 function player() {
   if (keyIsDown(RIGHT_ARROW)) {
-    playerXPos += 8;
+    playerXPos += 2;
     image(playerAnimations[1], playerXPos, playerYPos, 125, 125);
     
   }
