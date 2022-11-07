@@ -38,7 +38,7 @@ let scenes = [
   txt: "I can only imagine. The news paints a pretty scary picture."},
   {
   name: "Stranger",
-  txt: "Yeah. It's pretty bad when you're witnessing it in person. Truth be told, even though we talk all safety precautions, I feel like it's only a matter of time before I catch it."},
+  txt: "Yeah. It's pretty bad when you're witnessing it in person. Truth be told, even though we take all safety precautions, I feel like it's only a matter of time before I catch it."},
   {
   name: "Stranger",
   txt: "I've never been a paranoid person but ever since the pandemic started I've become really on edge."},
