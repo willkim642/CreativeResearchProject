@@ -20,8 +20,8 @@ http://creativecommons.org/licenses/by/4.0/*/
   backGrounds[2] = loadImage('https://i.imgur.com/qkKol0j.jpg');
 
   npcs[0] = loadImage('https://i.imgur.com/aQQDKuK.gif');
-  playerAnimations[0] = loadImage('playerstand.gif');
-  playerAnimations[1] = loadImage('playerwalk.gif');
+  playerAnimations[0] = loadImage('https://i.imgur.com/nRwLa65.gif');
+  playerAnimations[1] = loadImage('https://i.imgur.com/efeVPFq.gif');
 }
 
 function setup() {
