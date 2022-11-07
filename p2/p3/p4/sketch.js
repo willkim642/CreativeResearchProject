@@ -47,10 +47,6 @@ function draw() {
     playerYPos = 390;
     image(backGrounds[2], -300, 0, width *2, height);
     image(npcs[0], 530, 380, 125, 125);
-    fill(255);
-    rect(530, 350, 100, 30);
-    fill(0);
-    text("Excuse me?", 530, 360, 100, 30);
   }
   noSmooth();
   player();
