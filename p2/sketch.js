@@ -1,4 +1,4 @@
-let music;
+//let music;
 let backGrounds = [];
 let npcs = [];
 let playerAnimations = [];
@@ -11,24 +11,24 @@ function preload() {
   /*song from "Late Night Radio" Kevin MacLeod (incompetech.com)
 Licensed under Creative Commons: By Attribution 4.0 License
 http://creativecommons.org/licenses/by/4.0/*/
-  music = loadSound('Late Night Radio.mp3');
+  //music = loadSound('Late Night Radio.mp3');
   //bg[0] from 'https://collections.carli.illinois.edu/digital/collection/uic_city/id/14326/rec/36'
-  backGrounds[0] = loadImage('bg0.jpg');
+  backGrounds[0] = loadImage('https://i.imgur.com/PgrJI7y.jpg');
   //bg[1] from 'https://collections.carli.illinois.edu/digital/collection/uic_city/id/5090/rec/3'
-  backGrounds[1] = loadImage('bg1.jpg');
+  backGrounds[1] = loadImage('https://i.imgur.com/Wrmldpo.jpg');
   //bg[2] from https://collections.carli.illinois.edu/digital/collection/uic_city/id/8144/rec/77
-  backGrounds[2] = loadImage('bg2.jpg');
+  backGrounds[2] = loadImage('https://i.imgur.com/lIV8Jix.jpg');
   //bg[3] from 'https://collections.carli.illinois.edu/digital/collection/uic_city/id/14601/rec/52'
-  backGrounds[3] = loadImage('bg3.jpg');
-  npcs[0] = loadImage('npc1.gif');
-  playerAnimations[0] = loadImage('playerstand.gif');
-  playerAnimations[1] = loadImage('playerwalk.gif');
+  backGrounds[3] = loadImage('https://i.imgur.com/XYlkQQz.jpg');
+  npcs[0] = loadImage('https://i.imgur.com/An78gza.gif');
+  playerAnimations[0] = loadImage('https://i.imgur.com/nRwLa65.gif');
+  playerAnimations[1] = loadImage('https://i.imgur.com/efeVPFq.gif');
 }
 
 function setup() {
   createCanvas(640, 480);
   frameRate(60);
-  music.play();
+  //music.play();
   textAlign(CENTER);
   noStroke();
   
