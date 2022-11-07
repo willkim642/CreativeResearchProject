@@ -16,7 +16,7 @@ http://creativecommons.org/licenses/by/4.0/*/
   backGrounds[0] = loadImage('https://i.imgur.com/F3ke5Dz.jpg');
   //bg[1] from 'https://kingrs.com/ourinsight/4-unbreakable-laws-of-grocery-store-aisle-signs/'
   backGrounds[1] = loadImage('https://i.imgur.com/DNpyJA4.jpg');
-  //bg[2] from https://collections.carli.illinois.edu/digital/collection/uic_city/id/8144/rec/77
+  //bg[2] from https://www.dreamstime.com/editorial-stock-image-grocery-store-interior-dairy-case-aisle-supermarket-inside-back-section-image67307629
   backGrounds[2] = loadImage('https://i.imgur.com/qkKol0j.jpg');
 
   npcs[0] = loadImage('https://i.imgur.com/aQQDKuK.gif');
@@ -46,11 +46,11 @@ function draw() {
   if (currentScreen == 2) {
     playerYPos = 390;
     image(backGrounds[2], -300, 0, width *2, height);
-    image(npcs[0], 530, 380, 125, 125)
+    image(npcs[0], 530, 380, 125, 125);
     fill(255);
     rect(530, 350, 100, 30);
     fill(0);
-    text("Excuse me?", 530, 360, 100, 30)
+    text("Excuse me?", 530, 360, 100, 30);
   }
   noSmooth();
   player();
