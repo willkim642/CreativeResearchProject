@@ -31,8 +31,6 @@ function setup() {
   //music.play();
   textAlign(CENTER);
   noStroke();
-  
-  
 }
 
 function draw() {
@@ -54,10 +52,10 @@ function draw() {
     playerYPos = 325;
     image(backGrounds[3], 0, 0, width, height);
     image(npcs[0], 400, 300, 125, 125);
-    button = createButton('Click to advance');
-    button.position(520, 455);
-    button.mousePressed(changeScene);
+    fill(255);
+    rect(390, 270, 150, 45);
     fill(0);
+    text("Yo dude, It's been forever since I last saw you!", 390, 280, 150, 200);
   }
   noSmooth();
   player();
